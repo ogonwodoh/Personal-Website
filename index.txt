@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title> Ogo Nwodoh </title>
+		<link rel="stylesheet" type="text/css" href="style1.css">
+	</head>
+	<body>
+		<div id="head">
+			<div id=menu>
+			</div>
+		</div>
+
+		<div id="about">
+		</div>
+		
+		<div id="facts">
+		</div>
+	
+		<div id="courses">
+		</div>
+		
+		<div id="links">	
+		</div>
+
+		<div id="contact">
+		</div>
+
+	</body>
+</html>

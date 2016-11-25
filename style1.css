@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css?family=Sumana');
+
+
+
+	body{
+		font-family:'Sumana', serif;
+		color: white;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+	}
+	#head{
+		background-color: #900C3F;
+		height:350px;
+		width: 100%;
+	}
+	#console{
+		background-color: black;
+		height:100px;
+		width:100%;
+		font-family: Consolas;
+		font-color: green;
+		text-align: left;
+	}
+	table, th, td {
+    	border: 1px solid black;
+	}
+	#menu{
+		background-color: #f04285;
+		height:50px;
+		width: 100%;
+		opacity: 25%;
+		border: 1px black solid;
+		position: fixed;
+	}
+
+	#about{
+		background-color: #581845;
+		height: 550px;
+		width: 100%;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+	}
+	#facts{
+		background-color: #900C3F;
+		height:750px;
+		width: 100%;
+
+	}
+	#courses{
+		text-align:center;
+		background-color: #581845;
+		height: 660px;
+		width: 100%;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+	}
+	#links{
+		background-color: #900C3F;
+		height:1000px;
+		width: 100%;
+		target:_blank;
+		text-align: center;
+	}
+	#contact{
+		background-color: #581845;
+		height: 550px;
+		width: 100%;
+		line-height:150%;
+	}
+	#profile{
+		height:400px;
+		width: 300px;
+		border-radius:50%;
+		float:right;
+	}
+	.redirects{
+		color:white;
+		text-decoration:none;
+
+	}
+	a:hover{
+		font-size: 20px;
+		fontWeight: bolder;
+
+	}
+	.menu_items{
+		list-style-type: none;
+		margin:0;
+		padding: 0;
+	}
+	li.menu_items{
+		float:left;
+	}
+	li.menu_items a{
+		display: inline;
+		padding: 50px;	
+	}
+	.pic_links{
+		height: 200px;
+		width: 200px;
+		border-radius: 50px;
+		margin-left: 150px;
+		margin-right: 150px;
+		text-decoration: none;
+	}
