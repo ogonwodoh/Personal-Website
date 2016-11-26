@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <html>
 
 	<head>
@@ -18,7 +19,8 @@
 					<li class="menu_items"> <a href="#contact" class="redirects"> Contact Info </a> </li>
 				</ul>
 			</div>
-			<h1 style="padding-top:30px; text-align:center"> Ogo Nwodoh </h1>
+			<br>
+			<h1 style="text-align:center"> Ogo Nwodoh </h1>
 		
 			<div id="console">
 				<p id="import"></p>
@@ -32,7 +34,7 @@
 			
 			<h3 style="margin:0px 0px 0px 10px; padding: 0px 0px 0px 0px;"> About Me </h3>
 			<p style="text-align:left; margin-left:10px; float:left"> My name is Ogo Nwodoh and I am a Junior majoring in computer science at 				Barnard College.<br> I have the goal of becoming a full stack software developer. I am fluent in Java, Python, C, HTML, <br>CSS, and 			JavaScript. I would like to work in a team-oriented environment where I can use <br> these skills to create beautiful, 
-			user-friendly, software.<br> <br>Outside of school I am very interested in fashion, beauty, and clothing style.<br> You can check 			out my <a href="https://www.styled-by-black.tumblr.com" target="_blank" class="redirects">Tumblr </a>, to see my interests in that area.<br> 					Also feel free to explore this page and contact me. Once again, welcome! </p>
+			user-friendly, software.<br> <br>Outside of school I am very interested in fashion, beauty, and clothing style.<br> You can check 			out my <a href="https://www.styled-by-black.tumblr.com" target="_blank" class="redirects">Tumblr </a> to see my interests in that area.<br> 					Also feel free to explore this page and contact me. Once again, welcome! </p>
 			
 			<img src="Face.jpg" id="profile" 
 			style="margin-right:20px;margin-bottom:30px; float:right"/>
@@ -118,11 +120,27 @@
 			<br>
 			<h3> Links to External Other Social Media and Resume <h3>	
 			<p> Here are links to my GitHub, LinkedIn, SoundCloud, Tumblr, and Resume. I hope you explore these sites! 							</p>
-			<p><a href="https://github.com/onwodoh" target="_blank" > <img src="github.png" class="pic_links"/>  </a> 
-			<a href="https://www.linkedin.com/in/ogochukwu-nwodoh" target="_blank"> <img src="linkedin.png" class="pic_links"/> </a></p>
-			<p> <a href="resume.pdf" target="_blank"> <img src="resume.png" class="pic_links"/> </a> 
-			<a href="http://styled-by-black.tumblr.com/" target="_blank"> <img src="tumblr.png" class="pic_links"/> </a> </p>
-			<p> <a href="https://soundcloud.com/ogo-nwodoh" target="_blank"> <img src="soundcloud.png" class="pic_links" /> </a> </p>
+
+			<div style="display:inline; height:500px; width:500px;">
+				<a href="https://github.com/onwodoh" target="_blank"> <img src="github.png" class="pic_links" 									onmouseover="this.src='github_overlay.png'" onmouseout="this.src='github.png'" />  </a>
+			</div>
+			
+			<div style="display:inline; height:500px; width:500px;">
+				<a href="https://www.linkedin.com/in/ogochukwu-nwodoh" target="_blank"> <img src="linkedin.png" 								class="pic_links" onmouseover="this.src='linkedin_overlay.png'" onmouseout="this.src='linkedin.png'" />  </a>
+			</div>
+
+
+			<div style="display:inline; height:500px; width:500px;">
+				<a href="resume.pdf" target="_blank"> <img src="resume.png" class="pic_links"/> </a> 
+			</div>
+
+			<div style="display:inline; height:500px; width:500px;">
+				<a href="http://styled-by-black.tumblr.com/" target="_blank"> <img src="tumblr.png" class="pic_links"
+				onmouseover="this.src='Tumblr_overlay.png'" onmouseout="this.src='tumblr.png'"/> </a>
+			</div>
+
+			<p> <a href="https://soundcloud.com/ogo-nwodoh" target="_blank" id="sound"> <img src="soundcloud.png" 								class="pic_links"onmouseover="this.src='soundcloud_overlay.png'"
+			onmouseout="this.src='soundcloud.png'"  /> </a> </p>
 		</div>
 
 		<div id="contact">
@@ -133,8 +151,8 @@
 				<p> Email me :) </p>
 				<form method="post" action="action_page.php">
 				Name <br> <input type="text" name="name"> <br>
-				Email <br> <input type="text" name="email"> <br>
-				Message <br><textarea name="message" rows="10" cols="30">  </textarea> <br>
+				Email <br> <input type="text" name="email" placeholder="name@example.com"> <br>
+				Message <br><textarea name="message" rows="3" cols="30" placeholder="Type message here..."> </textarea> <br>
 				<input type="submit" value="Send">
 				</form>	
 			</div>
